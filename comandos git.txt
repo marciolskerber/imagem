@@ -1,0 +1,6 @@
+cd caminho/para/sua/pasta
+git init
+git add .
+git commit -m "Mensagem do seu commit"
+git remote add origin URL_DO_REPOSITORIO
+git push -u origin main
