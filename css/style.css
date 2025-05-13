@@ -1,0 +1,321 @@
+/* Estilos gerais do corpo da página */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #1200fe;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-size: 1.8em;
+    background-color: #1200fe;
+    color: #fff !important;
+    padding: 0.1em 0.3em;
+    border-radius: 0.2em;
+}
+
+.topo .nav-link {
+    font-size: 1em;
+    margin-left: 15px;
+    color: #1200fe !important;
+}
+
+.topo .nav-link:hover {
+    color: #1200fe !important;
+}
+
+.topo .nav-link:focus {
+    color: #1200fe !important;
+}
+
+.topo .btn-primary {
+    color: #fff !important;
+    background-color: #1200fe !important;
+}
+
+.topo .btn-primary:focus {
+    color: #fff !important;
+    background-color: #1200fe !important;
+}
+
+.topo .btn-primary:hover {
+    color: #fff !important;
+    background-color: #1200fe !important;
+}
+
+.navbar-nav .nav-link.no-margin-left {
+    margin-left: 0 !important;
+}
+
+header {
+    padding-top: 60px;
+    
+    padding-bottom: 140px;
+    
+}
+
+header h1 {
+    font-size: 10em;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    line-height: 0.9;
+    color: #1200fe;
+}
+
+header h2 {
+    font-size: 2.5em;
+    font-family: "Raleway";
+    color: #1401ff;
+}
+
+header h3 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 2.0em;
+}
+
+.family-font {
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+.style-font {
+    font-family: 'Noto Serif JP';
+    font-weight: 600;
+
+}
+
+.header-with-decorations {
+    overflow: hidden;
+}
+
+.header-with-decorations div[class^="image-"] {
+    position: absolute;
+    z-index: -1;
+}
+
+.image-1 {
+    top: 7%;
+    left: 26.2%;
+    height: auto;
+}
+
+.image-2 {
+    top: 25%;
+    left: 13%;
+    height: auto;
+}
+
+.image-3 {
+    top: 3.5%;
+    right: 26.7%;
+    height: auto;
+}
+
+.image-4 {
+    bottom: 19%;
+    left: 22%;
+    height: auto;
+}
+
+.image-5 {
+    bottom: 24%;
+    right: 11.5%;
+    height: auto;
+}
+
+.header-with-decorations div[class^="image-"] img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 992px) {
+    .header-with-decorations div[class^="image-"] {
+        opacity: 0.4;
+    }
+
+    .image-1 {
+        top: 5%;
+        left: 5%;
+        width: 20%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-with-decorations div[class^="image-"] {
+        display: none;
+    }
+}
+
+
+.info {
+    margin-bottom: 120px;
+}
+
+.info .btn-primary {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-right: -5px;
+    background-color: #1300ff !important;
+    color: #fff;
+
+}
+
+.info-linha1-font {
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 3.5em;
+}
+
+.info-linha2-font {
+    font-family: "Noto Serif";
+    font-weight: 500;
+    font-size: 3.0em;
+}
+
+.info h2 {
+    line-height: 1.1;
+}
+
+.image-6 {
+    position: absolute;
+    top: 117%; 
+    left: 71%; 
+}
+
+.image-6 img {
+    display: block; 
+    max-width: 100%; 
+    height: auto;
+}
+
+.info .btn.rounded-circle {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.info .btn.rounded-circle i {
+    font-size: 0.8em;
+}
+
+.lead {
+    font-family: "Noto Sans JP";
+    font-weight: 400;
+    font-size: 1.7em;
+    color: #1301fd;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    line-height: 1;
+}
+
+.blusa .btn-primary {
+    background-color: #fff !important;
+    color: #1300ff;
+    margin-bottom: 20px;
+    font-family: "Merriweather";
+    font-weight: 500;
+}
+.blusa .btn.rounded-pill {
+  padding: 20px 80px; 
+  font-size: 3em; 
+  margin-right: -3px;
+}
+
+.blusa .btn.rounded-circle {
+    padding: 15px 30px;
+    font-size: 3.5em; 
+}
+
+.poltronas p {
+    font-size: 4.0255em;
+    color: #1300ff;
+    line-height: 1;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.poltronas .btn-primary {
+    background-color: #1300ff;
+    margin-right: -3px;
+    font-size: 1.5em;
+}
+
+.poltronas {
+    margin-bottom: 70px;
+}
+
+.header.nav-link.active.nav-link:focus {
+    color: #1200fe;
+}
+
+/*rodapé*/
+footer {
+    font-family: "Noto Serif JP";
+    background-color: #1300ff;
+    font-size: 2em;
+    line-height: 0.5;
+    padding-top: 40px;
+}
+
+footer .row {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer .make-font {
+    font-family: "Montserrat";
+}
+
+footer .acreditamos {
+    font-family:"Roboto";
+    font-size: 0.45em;
+}
+
+footer .btn-primary {
+    font-family: "Montserrat";
+    font-weight: 500;
+    border-color: #fff;
+    color:#1300ff;
+    background-color: #fff;
+    font-size: 0.5em;
+    padding: 5px 5px;
+    margin-right: -23px;
+}
+footer .links-finais {
+    font-size: 0.6em;
+}
+footer .links-finais a { 
+    color: #fff !important;
+}
+
+footer .links-finais a:hover {
+    color: #fff !important;
+}
+
+footer .links-finais a:focus {
+    color: #fff !important;
+}
+
+footer .links-finais .btn-primary {
+    color:#1200fe !important; 
+    background-color:#fff !important;
+}
+
+footer .links-finais .btn-primary:hover {
+    color:#1200fe !important; 
+    background-color:#fff !important;
+}
+
+footer .links-finais .btn-primary:focus {
+    color:#1200fe !important; 
+    background-color:#fff !important;
+}
