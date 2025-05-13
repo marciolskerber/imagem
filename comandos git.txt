@@ -4,3 +4,11 @@ git add .
 git commit -m "Mensagem do seu commit"
 git remote add origin URL_DO_REPOSITORIO
 git push -u origin main
+
+Em resumo, para atualizar e enviar novamente:
+Bash
+
+cd caminho/para/sua/pasta
+git add .           # Ou git add <arquivos_específicos>
+git commit -m "Sua mensagem de atualização"
+git push            # Ou git push origin <nome_da_sua_branch>
